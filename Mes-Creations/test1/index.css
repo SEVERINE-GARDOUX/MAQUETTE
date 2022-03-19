@@ -1,0 +1,45 @@
+* {margin: 0;
+   padding: 0;}
+
+header {background-color: black;
+         height: 150px;
+         width: 100%;
+         background-image: url(./trouver-une-idee-d-entreprise.jpg);
+         background-size: contain;
+         background-repeat:space;
+         color : red;
+         text-align: center;
+         font-size: small;}
+
+body {background-color: lightsalmon;}
+
+.animaux {width: 250px;
+          height: 250px;
+          background-repeat: no-repeat;}
+
+p {font-size: x-large;
+   margin-left: 150px;
+   margin-top: 30px;}
+
+.color {width: 250px;
+       height: 20px;
+       border: none;
+       text-align: center;}
+
+.btn {border: none;
+      width: 100px;
+      height: 20px;
+      text-transform: lowercase;
+      background-color: lightsalmon;}
+      
+.contenu-img {margin-left: 50px;
+             width: 30%;
+             height: 250px;
+             background-color: lightsalmon;
+             background-repeat: no-repeat;}
+
+.final {margin-left: 650px;
+         border: none;
+         width: 150px;
+         height: 20px;}
+
