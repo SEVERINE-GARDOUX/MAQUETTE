@@ -14,3 +14,21 @@ image.addEventListener ('change', function (e) {
     document.querySelector ('.contenu-img').style.backgroundImage = `url(${image.value})`
 }
 )
+
+//const son = document.querySelector ('#emoji')
+
+// son.onclick = function () {
+//     audio.play ()
+// }
+
+const son = document.querySelector ('#emoji')
+
+son.addEventListener ('click', function () {
+
+    if (value=bravo) {
+        audio.play (applaudissement.mp3)
+    }else if (value=bis) {
+        audio.play (kiss2.mp3)
+    }
+    
+})
