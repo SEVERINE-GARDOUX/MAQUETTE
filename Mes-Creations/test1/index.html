@@ -16,10 +16,10 @@
 <p>Connaître vos goûts !</p>
 
 <br><input class="color"  type="text" placeholder=" Votre couleur préférée in English...">
-<button class="btn">Votre couleur </button>    <h2> </h2>
+<button id="btn">Votre couleur </button>    <h2> </h2>
 
 <br><label for=""> Choisissez votre animal ! </label>     
-<select name="" id="animaux" >
+<select name="" id="animaux" > <br>
     <br>
 <option id="choiximage" value="chat.jpg"> Chat</option>
 <option id="choiximage" value="chien.jpg"> Chien </option>
@@ -35,20 +35,22 @@
 <div class="contenu-img">
 </div>
 
-<br><label for=""> Choisissez votre emoji ! </label>     
-<select name="" id="emoji" >
-    <br>
-<option id="choixaudio" value="bravo" > 👏 </option>     
-<option id="choixaudio" value="bis"> 😘 </option>
-<option id="choixaudio" value="boo"> 👻 </option>
-<option id="choixaudio" value="rire"> 🤣 </option>
-<option id="choixaudio" value="train"> 🚆 </option>
-<option id="choixaudio" value="sonnette"> 🛎️ </option>
-</select>
 
 
-<br><button class="final"> Cliquez ici !</button> 
 
+<br> <h2> Choisissez votre emoji ! </h2>    
+
+<br>
+<button class="br" data-audio="./applaudissements.mp3"> 👏 </button>
+<button class="bis" data-audio="./kiss2.mp3" > 😘 </button>
+<button class="boo" data-audio="./ghost.mp3"  > 👻 </button>   
+<button class="rire" data-audio="./rire.mp3"  > 🤣 </button>
+<button class="train" data-audio="./train.mp3"  > 🚆 </button>
+<button class="sonnette" data-audio="./sonnette.mp3"  > 🛎️ </button>
+
+
+<br><a href="./index2.html" target="_blanck"> Surprise !!</a>
+<audio  src=""></audio>
 
 </body>
 <script src="./index.js"></script>
